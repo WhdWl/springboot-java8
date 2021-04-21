@@ -84,9 +84,7 @@ class DemoApplicationTests {
 		log.info("{}", a == comp_a);
 		log.info("{}", comp_a == a);
 		log.info("{}", comp_a == comp_b);
-		
-//		log.info("{}", a.equals(b));
-//		log.info("{}", a.equals(comp_a));
+
 		log.info("{}", comp_a.equals(a));
 		log.info("{}", comp_a.equals(comp_b));
 	}
@@ -96,7 +94,7 @@ class DemoApplicationTests {
 //	public Integer sendMessage(Integer x) {
 //		return add(x);
 //	}
-//	
+//
 //	private Integer add(Integer x) {
 //		Integer results = 0;
 //		for(int i=1; i<x; i++) {
